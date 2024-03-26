@@ -1,0 +1,21 @@
+.dot {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.header-dots {
+  display: flex;
+  gap: 5px;
+}
+.header-component {
+  margin-left: 12px;
+}
+.dot1 {
+  background-color: #cc2323;
+}
+.dot2 {
+  background-color: #f4bb4a;
+}
+.dot3 {
+  background-color: #48a14d;
+}
