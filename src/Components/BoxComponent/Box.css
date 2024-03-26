@@ -5,3 +5,16 @@
   margin: 5px auto;
   background-color: #3b3b3b;
 }
+.box-wrapper {
+  max-width: 1300px;
+  height: 692px;
+  border: 1px solid red;
+  margin: 20px auto;
+}
+.boxtop-content {
+  margin-left: 65px;
+  /* padding-top: 20px; */
+  font-size: 32px;
+  color: white;
+  font-weight: 700;
+}
