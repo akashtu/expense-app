@@ -1,0 +1,27 @@
+.boxright-container {
+  width: 417px;
+  height: auto;
+  background-color: #fff;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border-radius: 10px;
+}
+.progress-bar {
+  width: 304px !important;
+  height: 21px;
+  border-radius: 0px, 20px, 20px, 0px;
+  background-color: #8784d2;
+  display: block;
+  margin-left: 10px;
+}
+.enter-div {
+  display: flex;
+}
+.progress1 {
+  width: 184px !important;
+}
+.progress2 {
+  width: 113px !important;
+}

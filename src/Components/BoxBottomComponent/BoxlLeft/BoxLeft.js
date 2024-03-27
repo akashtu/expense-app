@@ -13,7 +13,7 @@ export const BoxLeft = () => {
           <div className="icon">
             <PiPizzaBold />
           </div>
-          <div>
+          <div className="prod-name-time">
             <div className="prod-name">Samosa</div>
             <div className="time">March 20, 2024</div>
           </div>
@@ -36,7 +36,7 @@ export const BoxLeft = () => {
           <div className="icon">
             <FaGift />
           </div>
-          <div>
+          <div className="prod-name-time">
             <div className="prod-name">Movie</div>
             <div className="time">March 20, 2024</div>
           </div>
@@ -59,7 +59,7 @@ export const BoxLeft = () => {
           <div className="icon">
             <TbBatteryAutomotive />
           </div>
-          <div>
+          <div className="prod-name-time">
             <div className="prod-name">Auto</div>
             <div className="time">March 20, 2024</div>
           </div>

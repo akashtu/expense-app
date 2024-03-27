@@ -1,8 +1,9 @@
 .boxleft-container {
-  width: 738px;
+  width: 600px;
   height: auto;
   background-color: #fff;
   border-radius: 10px;
+  padding: 20px;
 }
 .boxleft-sub1 {
   display: flex;
@@ -17,4 +18,47 @@
   list-style: none;
   display: flex;
   gap: 10px;
+  align-items: center;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  background-color: lightslategray;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prod-name-time {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+  margin-left: 10px;
+}
+.items-list > :nth-child(1) {
+  font-weight: 700;
+  color: #f4bb4a;
+}
+.items-list > :nth-child(2) {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background-color: red;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.items-list > :nth-child(3) {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background-color: lightpink;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
