@@ -12,7 +12,9 @@ export const BoxTop = () => {
             <span className="text">Wallet Balance: </span>
             <span className="price1">$4500</span>
           </div>
-          <button className="income-button">+ Add Income</button>
+          <button className="income-button">
+            <Link to="/addbalance">+ Add Income</Link>
+          </button>
         </div>
         <div className="boxtop">
           <div>
