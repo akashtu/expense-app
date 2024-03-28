@@ -1,9 +1,10 @@
 .box-container {
   max-width: 1440px;
-  /* height: 781px; */
+  height: auto;
   border: 1px solid black;
   margin: 5px auto;
   background-color: #3b3b3b;
+  position: relative;
 }
 .box-wrapper {
   max-width: 1300px;

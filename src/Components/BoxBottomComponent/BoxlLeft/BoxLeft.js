@@ -5,6 +5,7 @@ import { RxCross2 } from "react-icons/rx";
 import { MdEdit } from "react-icons/md";
 import { FaGift } from "react-icons/fa";
 import { TbBatteryAutomotive } from "react-icons/tb";
+import { Pagination } from "../Pagination/Pagination";
 export const BoxLeft = () => {
   return (
     <div className="boxleft-container">
@@ -75,6 +76,10 @@ export const BoxLeft = () => {
             </li>
           </ul>
         </div>
+      </div>
+      <hr />
+      <div className="pagination-container">
+        <Pagination />
       </div>
     </div>
   );

@@ -1,0 +1,33 @@
+.pagination-component {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.pagination-component > :nth-child(1) {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.pagination-component > :nth-child(3) {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.pagination-component > :nth-child(2) {
+  width: 37px;
+  height: 37px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #43967b;
+  color: #fff;
+}
