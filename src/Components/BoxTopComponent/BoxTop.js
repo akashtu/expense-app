@@ -13,7 +13,16 @@ export const BoxTop = () => {
             <span className="price1">$4500</span>
           </div>
           <button className="income-button">
-            <Link to="/addbalance">+ Add Income</Link>
+            <Link
+              to="/addbalance"
+              style={{
+                listStyle: "none",
+                color: "white",
+                textDecoration: "none",
+              }}
+            >
+              + Add Income
+            </Link>
           </button>
         </div>
         <div className="boxtop">
@@ -22,7 +31,16 @@ export const BoxTop = () => {
             <span className="price2">$500</span>
           </div>
           <button className="income-button button2">
-            <Link to="/addexpense">+ Add Expense</Link>
+            <Link
+              to="/addexpense"
+              style={{
+                listStyle: "none",
+                color: "white",
+                textDecoration: "none",
+              }}
+            >
+              + Add Expense
+            </Link>
           </button>
         </div>
       </div>

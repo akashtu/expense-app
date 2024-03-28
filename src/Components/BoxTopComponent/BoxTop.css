@@ -42,12 +42,14 @@
   color: #9dff5b;
 }
 .income-button {
-  background-color: #9dff5b;
+  /* background-color: #9dff5b; */
+  background: linear-gradient(90deg, #b5dc52 0%, #89e148 100%);
   color: #fff;
   padding: 5px 10px;
   border-radius: 10px;
   border: none;
   outline: none;
+  font-weight: 700;
 }
 .price2 {
   font-size: 30px;

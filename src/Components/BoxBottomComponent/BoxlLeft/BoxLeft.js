@@ -6,6 +6,7 @@ import { MdEdit } from "react-icons/md";
 import { FaGift } from "react-icons/fa";
 import { TbBatteryAutomotive } from "react-icons/tb";
 import { Pagination } from "../Pagination/Pagination";
+import { Link } from "react-router-dom";
 export const BoxLeft = () => {
   return (
     <div className="boxleft-container">
@@ -26,7 +27,12 @@ export const BoxLeft = () => {
               <RxCross2 />
             </li>
             <li>
-              <MdEdit />
+              <Link
+                to="/editexpense"
+                style={{ listStyle: "none", color: "#fff" }}
+              >
+                <MdEdit />
+              </Link>
             </li>
           </ul>
         </div>
@@ -49,7 +55,12 @@ export const BoxLeft = () => {
               <RxCross2 />
             </li>
             <li>
-              <MdEdit />
+              <Link
+                to="/editexpense"
+                style={{ listStyle: "none", color: "#fff" }}
+              >
+                <MdEdit />
+              </Link>
             </li>
           </ul>
         </div>
@@ -72,7 +83,12 @@ export const BoxLeft = () => {
               <RxCross2 />
             </li>
             <li>
-              <MdEdit />
+              <Link
+                to="/editexpense"
+                style={{ listStyle: "none", color: "#fff" }}
+              >
+                <MdEdit />
+              </Link>
             </li>
           </ul>
         </div>
